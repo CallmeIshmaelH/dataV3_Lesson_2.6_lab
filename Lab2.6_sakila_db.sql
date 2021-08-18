@@ -41,5 +41,4 @@ when `length`between 90 and 100 then 'Shorter than Average'
 when  `length` between 75 and 90  then 'Standard Length'
 else 'Short film'
 end as 'rank' from sakila.film where `length` is not null and `length` <> 0;
-
-select * from sakila.film where `length` is not null; 
+ 
